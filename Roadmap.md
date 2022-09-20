@@ -3,6 +3,7 @@ Back End:
 [x] Set up MySQL database for cows
 [x] Install express server and nodemon
 [x] Hello World in express
+[x] Sets up gitignore for node modules
 [ ] Set up express routes to get response from db
 [ ] Test routes using curl or Postman
 
