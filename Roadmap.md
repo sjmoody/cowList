@@ -1,8 +1,8 @@
 Back End:
 
-[ ] Set up MySQL database for cows
-[ ] Install express server and nodemon
-[ ] Hello World in express
+[x] Set up MySQL database for cows
+[x] Install express server and nodemon
+[x] Hello World in express
 [ ] Set up express routes to get response from db
 [ ] Test routes using curl or Postman
 
