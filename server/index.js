@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, '../client/dist')))
 // create some basic middleware to log requests and next()
 
 // likely figure out body parser with express 4.18
-
+app.use(express.json());
 
 // app.get('/', function(req, res) {
 //   res.send('Hello World')
@@ -44,9 +44,11 @@ app.post('/api/cows', (req, res) => {
   */
   // convert req.body into a cow
   // then db.createOne(cow)
-  let cow = req.body ? req.body : {name: 'Moodzs', description: `An extra family of cows`};
+  console.log("creating cow from body:")
+  console.log(req.body);
+  // let cow = req.body ? req.body : {name: 'Moodzs', description: `An extra family of cows`};
   // let cow = {name: 'Moody', description: `An ornery family of cows`};
-
+  let cow = req.body
   db.createOne(cow)
     .then(result => res.status(201).send(result))
     .catch(err => res.status(500).send(err));
