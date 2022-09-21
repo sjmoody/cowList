@@ -5,7 +5,7 @@ module.exports = {
   mode: "production",
   entry: path.join(__dirname, "client/src", "index.jsx"),
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "client/dist"),
   },
   module: {
     rules: [
