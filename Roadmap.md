@@ -15,6 +15,11 @@ Front End:
 [x] Hello world in bundled React
 [x] Get static page to load from express
 
+Components:
+[] CowList enumerates all cows by names
+[] CowForm takes name and description and submits to db
+[] FeaturedCow displays name and description of the featured cow
+
 Features:
 [ ] When the user loads the page, the user should see a list of all names of previously created cows (but not their descriptions)
 [ ] When the user types the name and description of a new cow they want to input into the database and presses the submit button, the newly created cow's information should be displayed in the list from the previous step only after the data has been successfully written to the database
