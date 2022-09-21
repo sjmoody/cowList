@@ -10,10 +10,10 @@ Back End:
 [x] Test routes using curl
 
 Front End:
-[ ] Install React, axios, webpack, babel
-[ ] Set up webpack and babel using good config
-[ ] Hello world in bundled React
-[ ] Get static page to load from express
+[x] Install React, axios, webpack, babel
+[x] Set up webpack and babel using good config
+[x] Hello world in bundled React
+[x] Get static page to load from express
 
 Features:
 [ ] When the user loads the page, the user should see a list of all names of previously created cows (but not their descriptions)

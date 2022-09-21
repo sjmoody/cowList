@@ -1,12 +1,19 @@
 const express = require('express')
 const app = express()
 const db = require('./database.js')
+const path = require('path')
+
+// use static files in ../client/dist
+app.use(express.static(path.join(__dirname, '../client/dist')))
+
+// create some basic middleware to log requests and next()
+
+// likely figure out body parser with express 4.18
 
 
-
-app.get('/', function(req, res) {
-  res.send('Hello World')
-})
+// app.get('/', function(req, res) {
+//   res.send('Hello World')
+// })
 
 app.get('/api/cows', function(req, res) {
   /*
