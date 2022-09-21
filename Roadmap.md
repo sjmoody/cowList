@@ -4,8 +4,10 @@ Back End:
 [x] Install express server and nodemon
 [x] Hello World in express
 [x] Sets up gitignore for node modules
-[ ] Set up express routes to get response from db
-[ ] Test routes using curl or Postman
+[x] Set up express routes to get response from db
+[x] Get route returns data from db
+[x] POST route updates db
+[x] Test routes using curl
 
 Front End:
 [ ] Install React, axios, webpack, babel
